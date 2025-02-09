@@ -1,0 +1,19 @@
+{
+  "name": "web-development",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhirajsingh12/web-development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhirajsingh12/web-development/issues"
+  },
+  "homepage": "https://github.com/Dhirajsingh12/web-development#readme",
+  "description": ""
+}

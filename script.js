@@ -21,3 +21,8 @@ alert("dhiraj");
 const value=prompt("what is your name");
 const name = prompt("what is your name");
 document.write("Hello" + name);
+
+//query selector
+const el = document.getElementsByName("Dhiraj");
+el.style.color ="red";
+el.parentElement.style.background="gray";
