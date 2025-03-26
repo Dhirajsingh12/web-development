@@ -15,5 +15,8 @@
     "url": "https://github.com/Dhirajsingh12/web-development/issues"
   },
   "homepage": "https://github.com/Dhirajsingh12/web-development#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    
+  }
 }
