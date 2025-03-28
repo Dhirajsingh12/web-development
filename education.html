@@ -8,32 +8,51 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #0c0c0c;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #917286;
             padding: 1rem 0;
             text-align: center;
             color: white;
+            position: relative;
         }
+        .author-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            border: 2px solid rgb(28, 27, 27);
+        }
+        
         .container {
             max-width: 1200px;
             margin: 2rem auto;
-            padding: 0 1rem;
+            padding: 2 2rem;
+            margin-bottom: 1.5rem;
         }
         .course {
-            background-color: white;
+            background-color: rgb(243, 131, 205);
             padding: 1rem;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .course img {
+            width: 25%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
         }
         h2 {
             margin-top: 0;
         }
         .btn {
             background-color: #4CAF50;
-            color: white;
+            color: rgb(13, 13, 13);
             padding: 0.5rem 1rem;
             text-decoration: none;
             border-radius: 4px;
@@ -45,11 +64,11 @@
             text-align: center;
             padding: 1rem 0;
             background-color: #333;
-            color: white;
+            color: rgb(10, 9, 9);
             margin-top: 2rem;
         }
         .contact-form {
-            background-color: white;
+            background-color: rgb(240, 233, 233);
             padding: 1rem;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -72,7 +91,7 @@
             cursor: pointer;
         }
         .form-btn:hover {
-            background-color: #45a049;
+            background-color: #10bb7c;
         }
         .testimonial {
             background-color: #f9f9f9;
@@ -80,53 +99,176 @@
             border-left: 4px solid #4CAF50;
             margin-top: 1.5rem;
         }
+        .categories {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        .category {
+            background-color: #7ba5cf;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 30%;
+            text-align: center;
+        }
+        .newsletter {
+            background-color: #101010;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(9, 9, 9);
+            margin-top: 2rem;
+            text-align: center;
+            
+        }
+        .video-demo {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .faq {
+            margin-top: 2rem;
+            background-color: #080101;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(13, 13, 13, 0.808);
+        }
+        .social-links {
+            margin-top: 1rem;
+        }
+        .social-links a {
+            margin: 0 0.5rem;
+            text-decoration: none;
+            color: rgb(10, 10, 10);
+        }
+        .instructors {
+            margin-top: 2rem;
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .authr-img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            border: 2px solid rgb(28, 27, 27);
+        }
+        .instructor {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .webinars {
+            margin-top: 2rem;
+            background-color: #9f85db;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .progress-tracker {
+            margin-top: 2rem;
+            background-color: #d70d0d;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .promo-banner {
+            background-color: #5fc9e9;
+            color: rgb(36, 112, 218);
+            padding: 1rem;
+            text-align: center;
+            margin-top: 1rem;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>LearnHub - Expand Your Knowledge</h1>
+        <img src="dk singh1.jpg" alt="Author" class="author-img">
     </header>
+
+    <div class="promo-banner">
+        <h2>🎁 Special Discount! Enroll now and get 10% off all courses! Limited time offer!</h2>
+    </div>
     
     <div class="container">
+        <div class="categories">
+            <div class="category">
+                <h3>Technology</h3>
+                <p>Explore tech courses and learn to code.</p>
+            </div>
+            <div class="category">
+                <h3>Business</h3>
+                <p>Enhance your business skills and strategies.</p>
+            </div>
+            <div class="category">
+                <h3>Design</h3>
+                <p>Master design tools and unleash your creativity.</p>
+            </div>
+        </div>
+        
         <div class="course">
-            <h2>Web Development Basics</h2>
+            <img src="https://infidata.in/assets/img/courses/web-development-training-in-bangalore.jpg" alt="Web Development">
+            <h2>Web Development</h2>
             <p>Learn HTML, CSS, and JavaScript to build amazing websites.</p>
             <a href="#" class="btn">Enroll Now</a>
         </div>
         
         <div class="course">
+            <img src="https://datapro.in/uploads/b92d39abf0acc0eaf709468ab07fe9d4.jpg" alt="Python Programming">
             <h2>Python for Beginners</h2>
             <p>Master Python programming and boost your career.</p>
             <a href="#" class="btn">Enroll Now</a>
         </div>
         
         <div class="course">
+            <img src="https://www.thinknexttraining.com/images/data-science-course-in-chandigarh-mob.jpg" alt="Data Science">
             <h2>Data Science Essentials</h2>
             <p>Explore data science concepts and applications.</p>
             <a href="#" class="btn">Enroll Now</a>
         </div>
         
-        <div class="testimonial">
-            <p><strong>Dhiraj:</strong> "LearnHub transformed my career! The courses are well-structured and easy to follow."</p>
+        <div class="instructors">
+            <h2>Meet Our Instructors</h2>
+            <div class="instructor">
+                <img src="dk" alt="Authr" class="authr-img">
+                <h3>Dr. Daya Shankar Shriwastwa</h3>
+                <p>Expert in Data Science with 10+ years of teaching experience.</p>
+            </div>
+            <div class="instructor">
+                <img src="dk singh1.jpg" alt="Authr" class="authr-img">
+                <h3>Dhiraj Kumar</h3>
+                <p>Web Developer and Tech Mentor with 1 year of experience.</p>
+            </div>
         </div>
         
-        <div class="contact-form">
-            <h2>Contact Us</h2>
+        <div class="webinars">
+            <h2>Upcoming Webinars</h2>
+            <p><strong>Webinar on AI Trends</strong> - Date: -- --, 2025</p>
+            <p><strong>Introduction to Cloud Computing</strong> - Date: -- --, 2025</p>
+        </div>
+        
+        <div class="progress-tracker">
+            <h2>Track Your Course Progress</h2>
+            <p>Monitor your learning milestones and stay motivated!</p>
+        </div>
+        
+        <div class="testimonial">
+            <p><strong>Dhiraj Kumar:</strong> "LearnHub transformed my career! The courses are well-structured and easy to follow."</p>
+        </div>
+        
+        <div class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
             <form action="#" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <button type="submit" class="form-btn">Send Message</button>
+                <input type="email" name="newsletter-email" placeholder="Enter your email" required>
+                <button type="submit" class="form-btn">Subscribe</button>
             </form>
         </div>
     </div>
-
+    
     <footer>
         <p>&copy; 2025 LearnHub. All rights reserved.</p>
     </footer>
