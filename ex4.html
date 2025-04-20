@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        body{
+            background-color: var(--primary-color);
+        }
+        :root {
+            --primary-color:rgb(157, 174, 24);
+            --text-color:rgb(233, 233, 228);
+            --secondary-color:green;
+
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color:var(--secondary-color);
+            padding: 12px 0;
+        }
+        ul li{
+            list-style-type: none;
+            display: inline;
+            padding: 4px;
+            font-weight: bolder;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>about</li>
+                <li>contect</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
