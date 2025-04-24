@@ -46,12 +46,30 @@
 // console.log(a**b); 
 // console.log(++a);
 // console.log(b++);
-let a="9";
-let b=5;
-// a+=b;
-// b-=a;
-console.log(a===b);
-console.log(a==b);
-console.log(a!=b);
-console.log(a<=b);
-console.log(a>=b);
+// let a="9";
+// let b=5;
+// // a+=b;
+// // b-=a;
+// console.log(a===b);
+// console.log(a==b);
+// console.log(a!=b);
+// console.log(a<=b);
+// console.log(a>=b);
+let student={
+    name:"amit singh",
+    age:20,
+    college:"gniot",
+    branch:"cse",
+    home:"bihar",
+    district:"begusarai",
+    post:"bhairwar",
+    block:"bhairwar",
+    schooling:"bihar bord"
+}
+console.log(student.name);
+console.log(student.college);
+console.log(student.age);
+console.log(student.home);
+console.log(student.branch);
+console.log(student.post);
+console.log(student.district);
