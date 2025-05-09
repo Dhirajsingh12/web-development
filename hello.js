@@ -73,3 +73,15 @@ console.log(student.home);
 console.log(student.branch);
 console.log(student.post);
 console.log(student.district);
+let age=20;
+if (age>=18) {
+    console.log("you can drive the car");
+    
+} else {
+    console.log("you can not drive the car")
+    
+}
+ a=20;
+ b=10;
+let c= a>b ? (a-b) : (b-a);
+console.log(c);
