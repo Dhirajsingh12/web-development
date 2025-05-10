@@ -55,33 +55,38 @@
 // console.log(a!=b);
 // console.log(a<=b);
 // console.log(a>=b);
-let student={
-    name:"amit singh",
-    age:20,
-    college:"gniot",
-    branch:"cse",
-    home:"bihar",
-    district:"begusarai",
-    post:"bhairwar",
-    block:"bhairwar",
-    schooling:"bihar bord"
-}
-console.log(student.name);
-console.log(student.college);
-console.log(student.age);
-console.log(student.home);
-console.log(student.branch);
-console.log(student.post);
-console.log(student.district);
-let age=20;
-if (age>=18) {
-    console.log("you can drive the car");
+// let student={
+//     name:"amit singh",
+//     age:20,
+//     college:"gniot",
+//     branch:"cse",
+//     home:"bihar",
+//     district:"begusarai",
+//     post:"bhairwar",
+//     block:"bhairwar",
+//     schooling:"bihar bord"
+// }
+// console.log(student.name);
+// console.log(student.college);
+// console.log(student.age);
+// console.log(student.home);
+// console.log(student.branch);
+// console.log(student.post);
+// console.log(student.district);
+// let age=20;
+// if (age>=18) {
+//     console.log("you can drive the car");
     
-} else {
-    console.log("you can not drive the car")
+// } else {
+//     console.log("you can not drive the car")
     
+// }
+//  a=20;
+//  b=10;
+// let c= a>b ? (a-b) : (b-a);
+// console.log(c);
+function sum(a,b){
+    return a+b
 }
- a=20;
- b=10;
-let c= a>b ? (a-b) : (b-a);
-console.log(c);
+let result=sum(5,7);
+console.log("sum of two number:",result)
