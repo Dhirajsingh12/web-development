@@ -85,8 +85,14 @@
 //  b=10;
 // let c= a>b ? (a-b) : (b-a);
 // console.log(c);
-function sum(a,b){
-    return a+b
-}
-let result=sum(5,7);
-console.log("sum of two number:",result)
+// function sum(a,b){
+//     return a+b
+// }
+// let result=sum(5,7);
+// console.log("sum of two number:",result)
+let arr=[1,3,4,5,6]
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr.length);
+arr.push("amit")
+console.log(arr)
