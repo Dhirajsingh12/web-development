@@ -90,9 +90,46 @@
 // }
 // let result=sum(5,7);
 // console.log("sum of two number:",result)
-let arr=[1,3,4,5,6]
-console.log(arr[0]);
-console.log(arr[1]);
-console.log(arr.length);
-arr.push("amit")
-console.log(arr)
+// let arr=[1,3,4,5,6]
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr.length);
+// arr.push("amit")
+// console.log(arr)
+//random name generator
+let rand=Math.random()
+let first,second,third
+//first
+if (rand<0.33) {
+    first="creziy";
+    
+}
+else if(rand<0.66 & rand>=0.33){
+    first="amizing"
+}
+else{
+    first="fire"
+}
+//second
+if (rand<0.33) {
+    second="angen";
+    
+}
+else if(rand<0.66 & rand>=0.33){
+    second="food"
+}
+else{
+    second="fee"
+}
+//third
+if (rand<0.33) {
+    third="hub";
+    
+}
+else if(rand<0.66 & rand>=0.33){
+    third="amazon"
+}
+else{
+    third="flipcard"
+}
+console.log(`${first} ${second} ${third}`)
