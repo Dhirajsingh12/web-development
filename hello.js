@@ -132,4 +132,16 @@ else if(rand<0.66 & rand>=0.33){
 else{
     third="flipcard"
 }
-console.log(`${first} ${second} ${third}`)
+//console.log(`${first} ${second} ${third}`)
+//forth
+if (rand<0.33) {
+    let forth="hub";
+    
+}
+else if(rand<0.66 & rand>=0.33){
+    forth="amazon"
+}
+else{
+    forth="flipcard"
+}
+console.log(`${first} ${second} ${third} ${forth}`)
