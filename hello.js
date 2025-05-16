@@ -96,52 +96,62 @@
 // console.log(arr.length);
 // arr.push("amit")
 // console.log(arr)
-//random name generator
-let rand=Math.random()
-let first,second,third
-//first
-if (rand<0.33) {
-    first="creziy";
+// //random name generator
+// let rand=Math.random()
+// let first,second,third
+// //first
+// if (rand<0.33) {
+//     first="creziy";
     
-}
-else if(rand<0.66 & rand>=0.33){
-    first="amizing"
-}
-else{
-    first="fire"
-}
-//second
-if (rand<0.33) {
-    second="angen";
+// }
+// else if(rand<0.66 & rand>=0.33){
+//     first="amizing"
+// }
+// else{
+//     first="fire"
+// }
+// //second
+// if (rand<0.33) {
+//     second="angen";
     
-}
-else if(rand<0.66 & rand>=0.33){
-    second="food"
-}
-else{
-    second="fee"
-}
-//third
-if (rand<0.33) {
-    third="hub";
+// }
+// else if(rand<0.66 & rand>=0.33){
+//     second="food"
+// }
+// else{
+//     second="fee"
+// }
+// //third
+// if (rand<0.33) {
+//     third="hub";
     
-}
-else if(rand<0.66 & rand>=0.33){
-    third="amazon"
-}
-else{
-    third="flipcard"
-}
-//console.log(`${first} ${second} ${third}`)
-//forth
-if (rand<0.33) {
-    let forth="hub";
+// }
+// else if(rand<0.66 & rand>=0.33){
+//     third="amazon"
+// }
+// else{
+//     third="flipcard"
+// }
+// //console.log(`${first} ${second} ${third}`)
+// //forth
+// if (rand<0.33) {
+//     let forth="hub";
     
+// }
+// else if(rand<0.66 & rand>=0.33){
+//     forth="amazon"
+// }
+// else{
+//     forth="flipcard"
+// }
+// console.log(`${first} ${second} ${third} ${forth}`)
+let a=6;
+function factorial(number){
+    let arr=Array.from(Array(number+1).keys())
+    console.log(arr.slice(1,))
+    let c=arr.slice(1,).reduce((a,b)=>{
+        return a*b;
+    })
+    console.log(c)
 }
-else if(rand<0.66 & rand>=0.33){
-    forth="amazon"
-}
-else{
-    forth="flipcard"
-}
-console.log(`${first} ${second} ${third} ${forth}`)
+factorial(a)
