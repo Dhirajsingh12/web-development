@@ -145,13 +145,40 @@
 //     forth="flipcard"
 // }
 // console.log(`${first} ${second} ${third} ${forth}`)
-let a=6;
-function factorial(number){
-    let arr=Array.from(Array(number+1).keys())
-    console.log(arr.slice(1,))
-    let c=arr.slice(1,).reduce((a,b)=>{
-        return a*b;
-    })
-    console.log(c)
-}
-factorial(a)
+// let a=prompt("enter the number");
+// function factorial(number){
+//     let arr=Array.from(Array(number+1).keys())
+//     // console.log(arr.slice(1,))
+//     let c=arr.slice(1,).reduce((a,b)=>{
+//         return a*b;
+//     })
+//     return c
+//     console.log(c)
+// }
+// factorial(a)
+// console.log("hii")
+// console.log("hello");
+//  setTimeout(() => {
+//     console.log("hello friends");
+   
+//  },2000);
+//  console.log("hi friends")
+ console.log("this is promis");
+ let prom1=new Promise((resolve, reject) => 
+    {
+        let a= Math.random();
+            if (a<0.5) {
+                reject("no random number not supported");
+            }
+            else{
+                setTimeout(() => {
+                    console.log("done")
+                    resolve("dhiraj")
+                }, 2000);
+            }
+        })
+ prom1.then((a) => {
+ }).catch ((err) => {
+   console.log(err);
+ })
+ 
