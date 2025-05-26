@@ -163,22 +163,26 @@
    
 //  },2000);
 //  console.log("hi friends")
- console.log("this is promis");
- let prom1=new Promise((resolve, reject) => 
-    {
-        let a= Math.random();
-            if (a<0.5) {
-                reject("no random number not supported");
-            }
-            else{
-                setTimeout(() => {
-                    console.log("done")
-                    resolve("dhiraj")
-                }, 2000);
-            }
-        })
- prom1.then((a) => {
- }).catch ((err) => {
-   console.log(err);
- })
+//  console.log("this is promis");
+//  let prom1=new Promise((resolve, reject) => 
+//     {
+//         let a= Math.random();
+//             if (a<0.5) {
+//                 reject("no random number not supported");
+//             }
+//             else{
+//                 setTimeout(() => {
+//                     console.log("done")
+//                     resolve("dhiraj")
+//                 }, 2000);
+//             }
+//         })
+//  prom1.then((a) => {
+//  }).catch ((err) => {
+//    console.log(err);
+//  })
  
+let a=prompt("enter the first number");
+let b=prompt("enter the second number");
+let sum=parseInt(a)+parseInt(b)
+console.log(sum);
