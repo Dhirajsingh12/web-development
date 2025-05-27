@@ -182,7 +182,12 @@
 //    console.log(err);
 //  })
  
-let a=prompt("enter the first number");
-let b=prompt("enter the second number");
-let sum=parseInt(a)+parseInt(b)
-console.log(sum);
+// let a=prompt("enter the first number");
+// let b=prompt("enter the second number");
+// let sum=parseInt(a)+parseInt(b)
+// console.log(sum);
+let obj={
+    a:1,
+    b:"dhiraj"
+}
+console.log(obj.a)
